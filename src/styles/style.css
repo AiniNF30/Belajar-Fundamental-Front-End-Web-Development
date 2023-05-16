@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;700&family=League+Spartan:wght@500;700&family=Lora:ital,wght@0,500;0,600;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,700&family=Quicksand:wght@500;700&family=Source+Serif+Pro:wght@300;400;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Serif Pro';
+}
+
+
+body{
+    background-color: #F6F1E9;
+}
+
+main{
+    width: 80%;
+    height: max-content;
+    margin: 0 auto 0 auto;
+    padding: 15px 20px 15px 20px;
+}
+
+header{
+    background: linear-gradient(129.55deg, #FE8C00 -8.99%, #F83600 127.32%);
+    box-shadow: 0px 5px 15px rgba(77, 67, 138, 0.15);
+    color: black;
+    padding: 10px 0 10px 0;
+}
+
+main{
+    color: black;
+}
+
+search-bar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-content{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h2{
+    color: rgba(255, 255, 255, 0.2);;
+}
+
+.card {
+  width: 300px;
+  height: 400px;
+  border-radius: 20px;
+  margin: 20px;
+  padding-bottom: 6px;
+  display: grid;
+  background:linear-gradient(to right top, #ffb087, #fbc29b, #f7d3b2, #f6e3cd, #f6f1e9);;
+  box-shadow:  33px 33px 66px #efeae2,
+               -33px -33px 66px #fdf8f0;
+
+}
+
+.category-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  padding: 20px;
+  border-radius: 50%;
+
+}
+
+.category-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0 0 10px;
+  text-align: justify;
+}
+
+.title-ingredients{
+    padding-top: 10px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.category-ingredients {
+  font-size: 16px;
+  margin: 10px;
+  text-align: justify;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+footer{
+    text-align: center;
+    background: linear-gradient(129.55deg, #FE8C00 -8.99%, #F83600 127.32%);
+    color: black;
+    padding: 10px 0 10px 0;
+}
+
+
+@media screen and (max-width: 600px) {
+    header{
+        padding: 10px 0 15px 0;
+    }
+
+    .card-content{
+        display: block;
+    }
+    
+    .card{
+        width: 90%;
+        padding: 25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
